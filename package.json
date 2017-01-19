@@ -1,0 +1,19 @@
+{
+  "name": "play-npm",
+  "version": "0.0.1",
+  "description": "play npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/butsalt/play-npm.git"
+  },
+  "author": "butsalt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/butsalt/play-npm/issues"
+  },
+  "homepage": "https://github.com/butsalt/play-npm#readme"
+}
