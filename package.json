@@ -2,10 +2,8 @@
   "name": "play-npm",
   "version": "0.0.5",
   "description": "play npm",
-  "main": "index.js",
-  "bin": {
-    "playnpm": "bin/playnpm.js"
-  },
+  "main": "./index.js",
+  "bin": "./bin/cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
