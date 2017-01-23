@@ -1,6 +1,6 @@
 {
   "name": "play-npm",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "play npm",
   "main": "index.js",
   "bin": {
