@@ -4,7 +4,7 @@
   "description": "play npm",
   "main": "index.js",
   "bin": {
-    "playnpm": "index.js"
+    "playnpm": "../bin/playnpm.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
