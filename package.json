@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/butsalt/play-npm/issues"
   },
-  "homepage": "https://github.com/butsalt/play-npm#readme"
+  "homepage": "https://github.com/butsalt/play-npm#readme",
+  "dependencies": {
+    "liftoff": "^2.3.0",
+    "minimist": "^1.2.0"
+  }
 }
