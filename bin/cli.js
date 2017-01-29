@@ -7,7 +7,10 @@ var argv = require('minimist')(
 );
 
 var Play = new Liftoff({
-    name: 'play'
+    name: 'play-npm'
+    // processTitle: 'play-npm',
+    // moduleName: 'play-npm',
+    configName: 'playfile'
 });
 
 Play.launch({
@@ -17,4 +20,8 @@ Play.launch({
     if (env.configPath) {
         require(env.configPath);
     }
+    // 优先查找cwd下node_modules
+    // 再查找cwd上一级目录下的node_modules
+    // 直至root
+    console.log(env.modulePath);
 });
